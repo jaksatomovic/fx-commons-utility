@@ -18,7 +18,7 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package io.github.jaksatomovic.rms.utility
+package io.github.jaksatomovic.fx.commons.utility
 
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject

@@ -1,4 +1,4 @@
-package io.github.jaksatomovic.rms.utility
+package io.github.jaksatomovic.fx.commons.utility
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.core.JsonParser

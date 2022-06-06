@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package io.github.jaksatomovic.rms.utility
+package io.github.jaksatomovic.fx.commons.utility
 
 @Suppress("NOTHING_TO_INLINE")
 inline fun String.surrounding(prefixSuffix: String) = surrounding(prefixSuffix, prefixSuffix)

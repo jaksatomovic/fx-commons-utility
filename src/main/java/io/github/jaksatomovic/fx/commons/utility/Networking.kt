@@ -18,7 +18,7 @@
 
 @file:JvmName("NetworkingUtils")
 
-package io.github.jaksatomovic.rms.utility
+package io.github.jaksatomovic.fx.commons.utility
 
 import java.io.IOException
 import java.net.MalformedURLException

@@ -18,7 +18,7 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package io.github.jaksatomovic.rms.utility
+package io.github.jaksatomovic.fx.commons.utility
 
 import java.util.function.Consumer
 import java.util.function.Supplier

@@ -16,10 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package io.github.jaksatomovic.rms.utility
+package io.github.jaksatomovic.fx.commons.utility
 
-import io.github.jaksatomovic.rms.utility.concurrent.CachedExecutor
-import io.github.jaksatomovic.rms.utility.os.OsInfo
+import io.github.jaksatomovic.fx.commons.utility.concurrent.CachedExecutor
+import io.github.jaksatomovic.fx.commons.utility.os.OsInfo
 import java.awt.Desktop
 import java.net.URL
 
