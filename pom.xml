@@ -12,8 +12,8 @@
 
     <distributionManagement>
         <repository>
-            <id>repsy-artifactory-release</id>
-            <name>repsy-fx-commons-utility</name>
+            <id>repsy</id>
+            <name>repsy-artifactory-release</name>
             <url>https://repo.repsy.io/mvn/canarin/fx-commons-utility</url>
         </repository>
     </distributionManagement>
