@@ -4,22 +4,13 @@
 
 #maven
 
-<project>
-  <!-- ... Other project settings -->
 
-  <repositories>
-    <!-- ... some other repository definitions -->
-
-    <repository>
-      <id>repsy</id>
-      <url>https://repo.repsy.io/mvn/canarin/fx-commons-utility</url>
-    </repository>
-
-    <!-- ... some other repository definitions -->
-  </repositories>
-  
-  <!-- ... Other project settings -->
-</project>
+<repositories>
+  <repository>
+    <id>repsy</id>
+    <url>https://repo.repsy.io/mvn/canarin/fx-commons-utility</url>
+  </repository>
+</repositories>
 
 <dependency>
   <groupId>io.github.jaksatomovic</groupId>
