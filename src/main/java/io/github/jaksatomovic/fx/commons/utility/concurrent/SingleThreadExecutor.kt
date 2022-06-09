@@ -19,7 +19,11 @@
 package io.github.jaksatomovic.fx.commons.utility.concurrent
 
 import java.util.concurrent.*
+import javax.inject.Named
+import javax.inject.Singleton
 
+@Singleton
+@Named("singleThreadExecutor")
 object SingleThreadExecutor : ExecutorService {
 
     private val back = Executors.newSingleThreadExecutor { runnable -> Thread(runnable).also { it.isDaemon = true } }

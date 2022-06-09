@@ -20,12 +20,16 @@ package io.github.jaksatomovic.fx.commons.utility.concurrent
 
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
+import javax.inject.Named
+import javax.inject.Singleton
 
 /**
  * A global cached thread pool for the application.
  *
  * @author Daniel Gyorffy
  */
+@Singleton
+@Named("cachedExecutor")
 object CachedExecutor : ExecutorService
 by Executors.newCachedThreadPool({ runnable ->
     Thread(runnable).apply {

@@ -72,6 +72,13 @@
             <version>2.11.0</version>
         </dependency>
 
+        <!--Guice-->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+
         <!--Kotlin-->
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
